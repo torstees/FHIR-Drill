@@ -70,3 +70,10 @@ formatter as a 1st class citizen of the language, e.g. [Golang](https://golang.o
 
 # The Challenge
 The goal of this challenge is to parse the two bundles and provide a list of patients. Allow the user to select a patient to see details about the sex and race (if available) as well as all phenotypes observed and absent. Also, provide a way to "search" for patients with phenotypes (display and code) that match a pattern provided by the user (i.e. a search box).
+
+[Patient Bundle](https://github.com/torstees/FHIR-Drill/blob/main/resources/Fake_CMG-Patient.json) contains 9 patient resources. 
+
+[Condition Bundle](https://github.com/torstees/FHIR-Drill/blob/main/resources/Fake_CMG-Condition.json) contains 64 condition resources related to the 9 patients above. 
+
+Each resource should have a "subject" which represents one of the 9 patients. 
+
