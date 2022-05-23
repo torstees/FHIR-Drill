@@ -75,5 +75,5 @@ The goal of this challenge is to parse the two bundles and provide a list of pat
 
 [Condition Bundle](https://github.com/torstees/FHIR-Drill/blob/main/resources/Fake_CMG-Condition.json) contains 64 condition resources related to the 9 patients above. 
 
-Each resource should have a "subject" which represents one of the 9 patients. 
+Each Condition resource should have a "subject" which represents one of the 9 patients. 
 
