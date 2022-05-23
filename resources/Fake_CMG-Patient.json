@@ -1,0 +1,350 @@
+{
+  "resourceType": "Bundle",
+  "id": "d1d52d84-0ce4-4322-a165-3b113a108f53",
+  "meta": {
+    "lastUpdated": "2022-05-23T20:13:14.017+00:00"
+  },
+  "type": "searchset",
+  "total": 9,
+  "link": [ {
+    "relation": "self",
+    "url": "http://localhost:8000/Patient?_format=json&_tag=FAKECMG"
+  } ],
+  "entry": [ {
+    "fullUrl": "http://localhost:8000/Patient/315338",
+    "resource": {
+      "resourceType": "Patient",
+      "id": "315338",
+      "meta": {
+        "versionId": "4",
+        "lastUpdated": "2022-05-23T19:19:30.859+00:00",
+        "source": "#AGcvvtyM8m6REGrD",
+        "tag": [ {
+          "system": "https://fakeurl.org/fake-cmg/fhir/researchstudy",
+          "code": "FAKECMG"
+        } ]
+      },
+      "identifier": [ {
+        "use": "official",
+        "system": "https://fakeurl.org/fake-cmg/fhir/patient",
+        "value": "fd-sub1"
+      } ],
+      "gender": "male"
+    },
+    "search": {
+      "mode": "match"
+    }
+  }, {
+    "fullUrl": "http://localhost:8000/Patient/315339",
+    "resource": {
+      "resourceType": "Patient",
+      "id": "315339",
+      "meta": {
+        "versionId": "4",
+        "lastUpdated": "2022-05-23T19:22:14.527+00:00",
+        "source": "#EIdhI1fSIqkyUbhU",
+        "tag": [ {
+          "system": "https://fakeurl.org/fake-cmg/fhir/researchstudy",
+          "code": "FAKECMG"
+        } ]
+      },
+      "extension": [ {
+        "url": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-race",
+        "extension": [ {
+          "url": "ombCategory",
+          "valueCoding": {
+            "system": "urn:oid:2.16.840.1.113883.6.238",
+            "version": "v1",
+            "code": "2028-9",
+            "display": "White"
+          }
+        }, {
+          "url": "text",
+          "valueString": "White"
+        } ]
+      } ],
+      "identifier": [ {
+        "use": "official",
+        "system": "https://fakeurl.org/fake-cmg/fhir/patient",
+        "value": "fd-sub2"
+      } ],
+      "gender": "male"
+    },
+    "search": {
+      "mode": "match"
+    }
+  }, {
+    "fullUrl": "http://localhost:8000/Patient/315340",
+    "resource": {
+      "resourceType": "Patient",
+      "id": "315340",
+      "meta": {
+        "versionId": "4",
+        "lastUpdated": "2022-05-23T19:22:14.584+00:00",
+        "source": "#gw7Psn0eOaLO7kc2",
+        "tag": [ {
+          "system": "https://fakeurl.org/fake-cmg/fhir/researchstudy",
+          "code": "FAKECMG"
+        } ]
+      },
+      "extension": [ {
+        "url": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-race",
+        "extension": [ {
+          "url": "ombCategory",
+          "valueCoding": {
+            "system": "urn:oid:2.16.840.1.113883.6.238",
+            "version": "v1",
+            "code": "2028-9",
+            "display": "White"
+          }
+        }, {
+          "url": "text",
+          "valueString": "White"
+        } ]
+      } ],
+      "identifier": [ {
+        "use": "official",
+        "system": "https://fakeurl.org/fake-cmg/fhir/patient",
+        "value": "fd-sub3"
+      } ],
+      "gender": "female"
+    },
+    "search": {
+      "mode": "match"
+    }
+  }, {
+    "fullUrl": "http://localhost:8000/Patient/315341",
+    "resource": {
+      "resourceType": "Patient",
+      "id": "315341",
+      "meta": {
+        "versionId": "4",
+        "lastUpdated": "2022-05-23T19:23:32.836+00:00",
+        "source": "#0C8dB88DHYQfnE3x",
+        "tag": [ {
+          "system": "https://fakeurl.org/fake-cmg/fhir/researchstudy",
+          "code": "FAKECMG"
+        } ]
+      },
+      "extension": [ {
+        "url": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-race",
+        "extension": [ {
+          "url": "ombCategory",
+          "valueCoding": {
+            "system": "urn:oid:2.16.840.1.113883.6.238",
+            "version": "v1",
+            "code": "2054-5",
+            "display": "Black or African American"
+          }
+        }, {
+          "url": "text",
+          "valueString": "Black or African American"
+        } ]
+      } ],
+      "identifier": [ {
+        "use": "official",
+        "system": "https://fakeurl.org/fake-cmg/fhir/patient",
+        "value": "fd-sub4"
+      } ],
+      "gender": "female"
+    },
+    "search": {
+      "mode": "match"
+    }
+  }, {
+    "fullUrl": "http://localhost:8000/Patient/315342",
+    "resource": {
+      "resourceType": "Patient",
+      "id": "315342",
+      "meta": {
+        "versionId": "4",
+        "lastUpdated": "2022-05-23T19:23:32.887+00:00",
+        "source": "#uXtqqG6KmjOznEqS",
+        "tag": [ {
+          "system": "https://fakeurl.org/fake-cmg/fhir/researchstudy",
+          "code": "FAKECMG"
+        } ]
+      },
+      "extension": [ {
+        "url": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-race",
+        "extension": [ {
+          "url": "ombCategory",
+          "valueCoding": {
+            "system": "urn:oid:2.16.840.1.113883.6.238",
+            "version": "v1",
+            "code": "2054-5",
+            "display": "Black or African American"
+          }
+        }, {
+          "url": "text",
+          "valueString": "Black or African American"
+        } ]
+      } ],
+      "identifier": [ {
+        "use": "official",
+        "system": "https://fakeurl.org/fake-cmg/fhir/patient",
+        "value": "fd-sub5"
+      } ],
+      "gender": "male"
+    },
+    "search": {
+      "mode": "match"
+    }
+  }, {
+    "fullUrl": "http://localhost:8000/Patient/315343",
+    "resource": {
+      "resourceType": "Patient",
+      "id": "315343",
+      "meta": {
+        "versionId": "4",
+        "lastUpdated": "2022-05-23T19:23:32.938+00:00",
+        "source": "#f9PlVxizx4O4VKrS",
+        "tag": [ {
+          "system": "https://fakeurl.org/fake-cmg/fhir/researchstudy",
+          "code": "FAKECMG"
+        } ]
+      },
+      "extension": [ {
+        "url": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-race",
+        "extension": [ {
+          "url": "ombCategory",
+          "valueCoding": {
+            "system": "urn:oid:2.16.840.1.113883.6.238",
+            "version": "v1",
+            "code": "2054-5",
+            "display": "Black or African American"
+          }
+        }, {
+          "url": "text",
+          "valueString": "Black or African American"
+        } ]
+      } ],
+      "identifier": [ {
+        "use": "official",
+        "system": "https://fakeurl.org/fake-cmg/fhir/patient",
+        "value": "fd-sub6"
+      } ],
+      "gender": "female"
+    },
+    "search": {
+      "mode": "match"
+    }
+  }, {
+    "fullUrl": "http://localhost:8000/Patient/315344",
+    "resource": {
+      "resourceType": "Patient",
+      "id": "315344",
+      "meta": {
+        "versionId": "4",
+        "lastUpdated": "2022-05-23T19:22:14.658+00:00",
+        "source": "#lPIKmlg52oVCx6Cq",
+        "tag": [ {
+          "system": "https://fakeurl.org/fake-cmg/fhir/researchstudy",
+          "code": "FAKECMG"
+        } ]
+      },
+      "extension": [ {
+        "url": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-race",
+        "extension": [ {
+          "url": "ombCategory",
+          "valueCoding": {
+            "system": "urn:oid:2.16.840.1.113883.6.238",
+            "version": "v1",
+            "code": "2028-9",
+            "display": "Asian"
+          }
+        }, {
+          "url": "text",
+          "valueString": "Asian"
+        } ]
+      } ],
+      "identifier": [ {
+        "use": "official",
+        "system": "https://fakeurl.org/fake-cmg/fhir/patient",
+        "value": "fd-sub7"
+      } ],
+      "gender": "male"
+    },
+    "search": {
+      "mode": "match"
+    }
+  }, {
+    "fullUrl": "http://localhost:8000/Patient/315345",
+    "resource": {
+      "resourceType": "Patient",
+      "id": "315345",
+      "meta": {
+        "versionId": "4",
+        "lastUpdated": "2022-05-23T19:22:14.707+00:00",
+        "source": "#cytZM7x1EZ3aloD2",
+        "tag": [ {
+          "system": "https://fakeurl.org/fake-cmg/fhir/researchstudy",
+          "code": "FAKECMG"
+        } ]
+      },
+      "extension": [ {
+        "url": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-race",
+        "extension": [ {
+          "url": "ombCategory",
+          "valueCoding": {
+            "system": "urn:oid:2.16.840.1.113883.6.238",
+            "version": "v1",
+            "code": "2028-9",
+            "display": "Asian"
+          }
+        }, {
+          "url": "text",
+          "valueString": "Asian"
+        } ]
+      } ],
+      "identifier": [ {
+        "use": "official",
+        "system": "https://fakeurl.org/fake-cmg/fhir/patient",
+        "value": "fd-sub8"
+      } ],
+      "gender": "male"
+    },
+    "search": {
+      "mode": "match"
+    }
+  }, {
+    "fullUrl": "http://localhost:8000/Patient/315346",
+    "resource": {
+      "resourceType": "Patient",
+      "id": "315346",
+      "meta": {
+        "versionId": "4",
+        "lastUpdated": "2022-05-23T19:22:14.755+00:00",
+        "source": "#SOBXrNHnmRgbp9Jl",
+        "tag": [ {
+          "system": "https://fakeurl.org/fake-cmg/fhir/researchstudy",
+          "code": "FAKECMG"
+        } ]
+      },
+      "extension": [ {
+        "url": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-race",
+        "extension": [ {
+          "url": "ombCategory",
+          "valueCoding": {
+            "system": "urn:oid:2.16.840.1.113883.6.238",
+            "version": "v1",
+            "code": "2028-9",
+            "display": "Asian"
+          }
+        }, {
+          "url": "text",
+          "valueString": "Asian"
+        } ]
+      } ],
+      "identifier": [ {
+        "use": "official",
+        "system": "https://fakeurl.org/fake-cmg/fhir/patient",
+        "value": "fd-sub9"
+      } ],
+      "gender": "female"
+    },
+    "search": {
+      "mode": "match"
+    }
+  } ]
+}

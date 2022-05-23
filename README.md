@@ -1,10 +1,10 @@
 # FHIR-Drill
-Fast Healthcare Interoperability Resources (FHIR) is a standard for sharing healthcare information across sites using modern web technologies. While it isn't currently designed for use in scientific research, it has been designed to be very flexible. It is also under continous refinement and will likely support research needs "out of the box" in the relatively near future. 
+Fast Healthcare Interoperability Resources (FHIR) is a standard for sharing healthcare information across sites using modern web technologies. While it isn't currently designed for use in scientific research, it has been designed to be very flexible. It is also under continuous refinement and will likely support research needs "out of the box" in the relatively near future. 
 
 For the purposes of this drill, we'll provide 2 FHIR Bundles. These bundles are the output of 2 separate FHIR queries using the standard REST API and contain information about 9 fictitious individuals. To provide a bit of insight into these resources, there are a few things that you will need to understand. 
 
 ## Codes are Fundamental
-One of the central tenents of interoperability is a common langauge, and for this, FHIR uses something called "Code Systems". A CodeSystem is a resource that enumerates each entry in it's vocabulary using "Code", "Display" and "System". The code is the literal coded value associated with the term. The display is "human readable" representation of that code. Think of it as what you would display to the end user. The system is a unique identifier describing the vocabulary itself. For a single CodeSystem with many, many terms, each of them would have the same "system". 
+One of the central tenets of interoperability is a common languages, and for this, FHIR uses something called "Code Systems". A CodeSystem is a resource that enumerates each entry in it's vocabulary using "Code", "Display" and "System". The code is the literal coded value associated with the term. The display is "human readable" representation of that code. Think of it as what you would display to the end user. The system is a unique identifier describing the vocabulary itself. For a single CodeSystem with many, many terms, each of them would have the same "system". 
 
 ## Identifiers
 An identifier in FHIR is used to annotate a resource with some known numeric or alphanumeric string value. To facilitate IDs that may overlap, each identifier can have a system property which can designate the source for the ID. For instance, if we have subject IDs that are unique to the study, the system for that identifier would be a URI representing the study itself. The identifier itself will be found inside the "value" property. 
@@ -46,8 +46,8 @@ A Condition has a small number of key properties:
 * verificationStatus -- This points to a list of codes which ultimate have two possible meanings: 
   * Confirmed -- Which indicates that the phenotype described by the condition's code has been observed
   * Refuted -- Which indicates that the phenotype described by the condition's code has been observed to be absent 
-  * identifier -- This indicates the unique ID associated to with the resource itself
-  * subject -- This is a reference back to the patient for whom the condition is associated. Please note that the form for these references will always be: Patient/XXXXXXX where XXXXXX is the actual ID associated with the patient. 
+* identifier -- This indicates the unique ID associated to with the resource itself
+* subject -- This is a reference back to the patient for whom the condition is associated. Please note that the form for these references will always be: Patient/XXXXXXX where XXXXXX is the actual ID associated with the patient. 
 
 # Environment Expectations
 Before we get to the challenge itself, we have a few high-level expectations we require out of any response.
@@ -69,5 +69,4 @@ formatter as a 1st class citizen of the language, e.g. [Golang](https://golang.o
 [gofmt](https://golang.org/cmd/gofmt/) tool.  In these situations, you _must_ use the language's provided formatter.
 
 # The Challenge
-The goal of this challenge is to list the subjects represented in the FHIR bundles, provide the ability to select a single subject to see all of the phenotypes both present and absent as well as provide a search function to list only patients with phenotypes that match the partial search criteria provided by the user (if the user provides "a", it should match any patient with a phenotype containing a code or display with an "a" in it. )
-
+The goal of this challenge is to parse the two bundles and provide a list of patients. Allow the user to select a patient to see details about the sex and race (if available) as well as all phenotypes observed and absent. Also, provide a way to "search" for patients with phenotypes (display and code) that match a pattern provided by the user (i.e. a search box).

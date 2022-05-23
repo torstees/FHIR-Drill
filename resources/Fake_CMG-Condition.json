@@ -1,0 +1,2517 @@
+{
+  "resourceType": "Bundle",
+  "id": "2275c5d2-63e6-4c3d-b7c6-058393914463",
+  "meta": {
+    "lastUpdated": "2022-05-23T20:13:07.353+00:00"
+  },
+  "type": "searchset",
+  "total": 64,
+  "link": [ {
+    "relation": "self",
+    "url": "http://localhost:8000/Condition?_format=json&_tag=FAKECMG"
+  }, {
+    "relation": "next",
+    "url": "http://localhost:8000?_getpages=2275c5d2-63e6-4c3d-b7c6-058393914463&_getpagesoffset=50&_count=50&_format=json&_pretty=true&_bundletype=searchset"
+  } ],
+  "entry": [ {
+    "fullUrl": "http://localhost:8000/Condition/315347",
+    "resource": {
+      "resourceType": "Condition",
+      "id": "315347",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2022-05-23T17:51:13.326+00:00",
+        "source": "#npAyWkYZeIccMq2b",
+        "tag": [ {
+          "system": "https://fakeurl.org/fake-cmg/fhir/researchstudy",
+          "code": "FAKECMG"
+        } ]
+      },
+      "identifier": [ {
+        "use": "official",
+        "system": "https://fakeurl.org/fake-cmg/fhir/condition",
+        "value": "fd-sub1.HP:0000076"
+      } ],
+      "verificationStatus": {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+          "version": "v1",
+          "code": "refuted",
+          "display": "Refuted"
+        } ]
+      },
+      "category": [ {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+          "code": "encounter-diagnosis",
+          "display": "Encounter Diagnosis"
+        } ]
+      } ],
+      "code": {
+        "coding": [ {
+          "system": "https://uberon.github.io/",
+          "version": "v1",
+          "code": "HP:0000076",
+          "display": "Vesicoureteral reflux"
+        } ],
+        "text": "Vesicoureteral reflux"
+      },
+      "subject": {
+        "reference": "Patient/315338"
+      }
+    },
+    "search": {
+      "mode": "match"
+    }
+  }, {
+    "fullUrl": "http://localhost:8000/Condition/315348",
+    "resource": {
+      "resourceType": "Condition",
+      "id": "315348",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2022-05-23T17:51:13.379+00:00",
+        "source": "#6MAvi1jeJT8Ifzuc",
+        "tag": [ {
+          "system": "https://fakeurl.org/fake-cmg/fhir/researchstudy",
+          "code": "FAKECMG"
+        } ]
+      },
+      "identifier": [ {
+        "use": "official",
+        "system": "https://fakeurl.org/fake-cmg/fhir/condition",
+        "value": "fd-sub1.HP:0000126"
+      } ],
+      "verificationStatus": {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+          "version": "v1",
+          "code": "refuted",
+          "display": "Refuted"
+        } ]
+      },
+      "category": [ {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+          "code": "encounter-diagnosis",
+          "display": "Encounter Diagnosis"
+        } ]
+      } ],
+      "code": {
+        "coding": [ {
+          "system": "https://uberon.github.io/",
+          "version": "v1",
+          "code": "HP:0000126",
+          "display": "Hydronephrosis"
+        } ],
+        "text": "Hydronephrosis"
+      },
+      "subject": {
+        "reference": "Patient/315338"
+      }
+    },
+    "search": {
+      "mode": "match"
+    }
+  }, {
+    "fullUrl": "http://localhost:8000/Condition/315349",
+    "resource": {
+      "resourceType": "Condition",
+      "id": "315349",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2022-05-23T17:51:13.430+00:00",
+        "source": "#FPifDCQfXAy8jqMp",
+        "tag": [ {
+          "system": "https://fakeurl.org/fake-cmg/fhir/researchstudy",
+          "code": "FAKECMG"
+        } ]
+      },
+      "identifier": [ {
+        "use": "official",
+        "system": "https://fakeurl.org/fake-cmg/fhir/condition",
+        "value": "fd-sub1.HP:0000218"
+      } ],
+      "verificationStatus": {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+          "version": "v1",
+          "code": "refuted",
+          "display": "Refuted"
+        } ]
+      },
+      "category": [ {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+          "code": "encounter-diagnosis",
+          "display": "Encounter Diagnosis"
+        } ]
+      } ],
+      "code": {
+        "coding": [ {
+          "system": "https://uberon.github.io/",
+          "version": "v1",
+          "code": "HP:0000218",
+          "display": "High palate"
+        } ],
+        "text": "High palate"
+      },
+      "subject": {
+        "reference": "Patient/315338"
+      }
+    },
+    "search": {
+      "mode": "match"
+    }
+  }, {
+    "fullUrl": "http://localhost:8000/Condition/315350",
+    "resource": {
+      "resourceType": "Condition",
+      "id": "315350",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2022-05-23T17:51:13.481+00:00",
+        "source": "#Ytw2kOhac1AZ7YPu",
+        "tag": [ {
+          "system": "https://fakeurl.org/fake-cmg/fhir/researchstudy",
+          "code": "FAKECMG"
+        } ]
+      },
+      "identifier": [ {
+        "use": "official",
+        "system": "https://fakeurl.org/fake-cmg/fhir/condition",
+        "value": "fd-sub1.HP:0000276"
+      } ],
+      "verificationStatus": {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+          "version": "v1",
+          "code": "refuted",
+          "display": "Refuted"
+        } ]
+      },
+      "category": [ {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+          "code": "encounter-diagnosis",
+          "display": "Encounter Diagnosis"
+        } ]
+      } ],
+      "code": {
+        "coding": [ {
+          "system": "https://uberon.github.io/",
+          "version": "v1",
+          "code": "HP:0000276",
+          "display": "Long face"
+        } ],
+        "text": "Long face"
+      },
+      "subject": {
+        "reference": "Patient/315338"
+      }
+    },
+    "search": {
+      "mode": "match"
+    }
+  }, {
+    "fullUrl": "http://localhost:8000/Condition/315351",
+    "resource": {
+      "resourceType": "Condition",
+      "id": "315351",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2022-05-23T17:51:13.533+00:00",
+        "source": "#CZXMARCbmKJauEEC",
+        "tag": [ {
+          "system": "https://fakeurl.org/fake-cmg/fhir/researchstudy",
+          "code": "FAKECMG"
+        } ]
+      },
+      "identifier": [ {
+        "use": "official",
+        "system": "https://fakeurl.org/fake-cmg/fhir/condition",
+        "value": "fd-sub1.HP:0000297"
+      } ],
+      "verificationStatus": {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+          "version": "v1",
+          "code": "refuted",
+          "display": "Refuted"
+        } ]
+      },
+      "category": [ {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+          "code": "encounter-diagnosis",
+          "display": "Encounter Diagnosis"
+        } ]
+      } ],
+      "code": {
+        "coding": [ {
+          "system": "https://uberon.github.io/",
+          "version": "v1",
+          "code": "HP:0000297",
+          "display": "Facial hypotonia"
+        } ],
+        "text": "Facial hypotonia"
+      },
+      "subject": {
+        "reference": "Patient/315338"
+      }
+    },
+    "search": {
+      "mode": "match"
+    }
+  }, {
+    "fullUrl": "http://localhost:8000/Condition/315352",
+    "resource": {
+      "resourceType": "Condition",
+      "id": "315352",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2022-05-23T17:51:13.581+00:00",
+        "source": "#kP1UnIKEiAN0DsAr",
+        "tag": [ {
+          "system": "https://fakeurl.org/fake-cmg/fhir/researchstudy",
+          "code": "FAKECMG"
+        } ]
+      },
+      "identifier": [ {
+        "use": "official",
+        "system": "https://fakeurl.org/fake-cmg/fhir/condition",
+        "value": "fd-sub1.HP:0000391"
+      } ],
+      "verificationStatus": {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+          "version": "v1",
+          "code": "refuted",
+          "display": "Refuted"
+        } ]
+      },
+      "category": [ {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+          "code": "encounter-diagnosis",
+          "display": "Encounter Diagnosis"
+        } ]
+      } ],
+      "code": {
+        "coding": [ {
+          "system": "https://uberon.github.io/",
+          "version": "v1",
+          "code": "HP:0000391",
+          "display": "Thickened helices"
+        } ],
+        "text": "Thickened helices"
+      },
+      "subject": {
+        "reference": "Patient/315338"
+      }
+    },
+    "search": {
+      "mode": "match"
+    }
+  }, {
+    "fullUrl": "http://localhost:8000/Condition/315389",
+    "resource": {
+      "resourceType": "Condition",
+      "id": "315389",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2022-05-23T17:51:15.734+00:00",
+        "source": "#gr79MeDSDOyRCOsH",
+        "tag": [ {
+          "system": "https://fakeurl.org/fake-cmg/fhir/researchstudy",
+          "code": "FAKECMG"
+        } ]
+      },
+      "identifier": [ {
+        "use": "official",
+        "system": "https://fakeurl.org/fake-cmg/fhir/condition",
+        "value": "fd-sub4.HP:0000218"
+      } ],
+      "verificationStatus": {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+          "version": "v1",
+          "code": "refuted",
+          "display": "Refuted"
+        } ]
+      },
+      "category": [ {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+          "code": "encounter-diagnosis",
+          "display": "Encounter Diagnosis"
+        } ]
+      } ],
+      "code": {
+        "coding": [ {
+          "system": "https://uberon.github.io/",
+          "version": "v1",
+          "code": "HP:0000218",
+          "display": "High palate"
+        } ],
+        "text": "High palate"
+      },
+      "subject": {
+        "reference": "Patient/315341"
+      }
+    },
+    "search": {
+      "mode": "match"
+    }
+  }, {
+    "fullUrl": "http://localhost:8000/Condition/315353",
+    "resource": {
+      "resourceType": "Condition",
+      "id": "315353",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2022-05-23T17:51:13.631+00:00",
+        "source": "#zpHGDCkJiGhGK5ZP",
+        "tag": [ {
+          "system": "https://fakeurl.org/fake-cmg/fhir/researchstudy",
+          "code": "FAKECMG"
+        } ]
+      },
+      "identifier": [ {
+        "use": "official",
+        "system": "https://fakeurl.org/fake-cmg/fhir/condition",
+        "value": "fd-sub1.HP:0000508"
+      } ],
+      "verificationStatus": {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+          "version": "v1",
+          "code": "refuted",
+          "display": "Refuted"
+        } ]
+      },
+      "category": [ {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+          "code": "encounter-diagnosis",
+          "display": "Encounter Diagnosis"
+        } ]
+      } ],
+      "code": {
+        "coding": [ {
+          "system": "https://uberon.github.io/",
+          "version": "v1",
+          "code": "HP:0000508",
+          "display": "Ptosis"
+        } ],
+        "text": "Ptosis"
+      },
+      "subject": {
+        "reference": "Patient/315338"
+      }
+    },
+    "search": {
+      "mode": "match"
+    }
+  }, {
+    "fullUrl": "http://localhost:8000/Condition/315390",
+    "resource": {
+      "resourceType": "Condition",
+      "id": "315390",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2022-05-23T17:51:15.785+00:00",
+        "source": "#8DTQGtCE7jvTZPSI",
+        "tag": [ {
+          "system": "https://fakeurl.org/fake-cmg/fhir/researchstudy",
+          "code": "FAKECMG"
+        } ]
+      },
+      "identifier": [ {
+        "use": "official",
+        "system": "https://fakeurl.org/fake-cmg/fhir/condition",
+        "value": "fd-sub4.HP:0000316"
+      } ],
+      "verificationStatus": {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+          "version": "v1",
+          "code": "refuted",
+          "display": "Refuted"
+        } ]
+      },
+      "category": [ {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+          "code": "encounter-diagnosis",
+          "display": "Encounter Diagnosis"
+        } ]
+      } ],
+      "code": {
+        "coding": [ {
+          "system": "https://uberon.github.io/",
+          "version": "v1",
+          "code": "HP:0000316",
+          "display": "Hypertelorism"
+        } ],
+        "text": "Hypertelorism"
+      },
+      "subject": {
+        "reference": "Patient/315341"
+      }
+    },
+    "search": {
+      "mode": "match"
+    }
+  }, {
+    "fullUrl": "http://localhost:8000/Condition/315354",
+    "resource": {
+      "resourceType": "Condition",
+      "id": "315354",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2022-05-23T17:51:13.682+00:00",
+        "source": "#gVf0zzBIMgK31ptb",
+        "tag": [ {
+          "system": "https://fakeurl.org/fake-cmg/fhir/researchstudy",
+          "code": "FAKECMG"
+        } ]
+      },
+      "identifier": [ {
+        "use": "official",
+        "system": "https://fakeurl.org/fake-cmg/fhir/condition",
+        "value": "fd-sub1.HP:0000535"
+      } ],
+      "verificationStatus": {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+          "version": "v1",
+          "code": "refuted",
+          "display": "Refuted"
+        } ]
+      },
+      "category": [ {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+          "code": "encounter-diagnosis",
+          "display": "Encounter Diagnosis"
+        } ]
+      } ],
+      "code": {
+        "coding": [ {
+          "system": "https://uberon.github.io/",
+          "version": "v1",
+          "code": "HP:0000535",
+          "display": "Sparse and thin eyebrow"
+        } ],
+        "text": "Sparse and thin eyebrow"
+      },
+      "subject": {
+        "reference": "Patient/315338"
+      }
+    },
+    "search": {
+      "mode": "match"
+    }
+  }, {
+    "fullUrl": "http://localhost:8000/Condition/315391",
+    "resource": {
+      "resourceType": "Condition",
+      "id": "315391",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2022-05-23T17:51:15.836+00:00",
+        "source": "#kZT3PoqpefH5XmYc",
+        "tag": [ {
+          "system": "https://fakeurl.org/fake-cmg/fhir/researchstudy",
+          "code": "FAKECMG"
+        } ]
+      },
+      "identifier": [ {
+        "use": "official",
+        "system": "https://fakeurl.org/fake-cmg/fhir/condition",
+        "value": "fd-sub4.HP:0001763"
+      } ],
+      "verificationStatus": {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+          "version": "v1",
+          "code": "refuted",
+          "display": "Refuted"
+        } ]
+      },
+      "category": [ {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+          "code": "encounter-diagnosis",
+          "display": "Encounter Diagnosis"
+        } ]
+      } ],
+      "code": {
+        "coding": [ {
+          "system": "https://uberon.github.io/",
+          "version": "v1",
+          "code": "HP:0001763",
+          "display": "Pes planus"
+        } ],
+        "text": "Pes planus"
+      },
+      "subject": {
+        "reference": "Patient/315341"
+      }
+    },
+    "search": {
+      "mode": "match"
+    }
+  }, {
+    "fullUrl": "http://localhost:8000/Condition/315355",
+    "resource": {
+      "resourceType": "Condition",
+      "id": "315355",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2022-05-23T17:51:13.731+00:00",
+        "source": "#BqwN4zxUhgkkYp0A",
+        "tag": [ {
+          "system": "https://fakeurl.org/fake-cmg/fhir/researchstudy",
+          "code": "FAKECMG"
+        } ]
+      },
+      "identifier": [ {
+        "use": "official",
+        "system": "https://fakeurl.org/fake-cmg/fhir/condition",
+        "value": "fd-sub1.HP:0000545"
+      } ],
+      "verificationStatus": {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+          "version": "v1",
+          "code": "refuted",
+          "display": "Refuted"
+        } ]
+      },
+      "category": [ {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+          "code": "encounter-diagnosis",
+          "display": "Encounter Diagnosis"
+        } ]
+      } ],
+      "code": {
+        "coding": [ {
+          "system": "https://uberon.github.io/",
+          "version": "v1",
+          "code": "HP:0000545",
+          "display": "Myopia"
+        } ],
+        "text": "Myopia"
+      },
+      "subject": {
+        "reference": "Patient/315338"
+      }
+    },
+    "search": {
+      "mode": "match"
+    }
+  }, {
+    "fullUrl": "http://localhost:8000/Condition/315392",
+    "resource": {
+      "resourceType": "Condition",
+      "id": "315392",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2022-05-23T17:51:15.889+00:00",
+        "source": "#wHmdJCYV1OkjA0AI",
+        "tag": [ {
+          "system": "https://fakeurl.org/fake-cmg/fhir/researchstudy",
+          "code": "FAKECMG"
+        } ]
+      },
+      "identifier": [ {
+        "use": "official",
+        "system": "https://fakeurl.org/fake-cmg/fhir/condition",
+        "value": "fd-sub4.HP:0002616"
+      } ],
+      "verificationStatus": {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+          "version": "v1",
+          "code": "refuted",
+          "display": "Refuted"
+        } ]
+      },
+      "category": [ {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+          "code": "encounter-diagnosis",
+          "display": "Encounter Diagnosis"
+        } ]
+      } ],
+      "code": {
+        "coding": [ {
+          "system": "https://uberon.github.io/",
+          "version": "v1",
+          "code": "HP:0002616",
+          "display": "Aortic root aneurysm"
+        } ],
+        "text": "Aortic root aneurysm"
+      },
+      "subject": {
+        "reference": "Patient/315341"
+      }
+    },
+    "search": {
+      "mode": "match"
+    }
+  }, {
+    "fullUrl": "http://localhost:8000/Condition/315356",
+    "resource": {
+      "resourceType": "Condition",
+      "id": "315356",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2022-05-23T17:51:13.779+00:00",
+        "source": "#U4VM6fLGFF2P99z2",
+        "tag": [ {
+          "system": "https://fakeurl.org/fake-cmg/fhir/researchstudy",
+          "code": "FAKECMG"
+        } ]
+      },
+      "identifier": [ {
+        "use": "official",
+        "system": "https://fakeurl.org/fake-cmg/fhir/condition",
+        "value": "fd-sub1.HP:0000637"
+      } ],
+      "verificationStatus": {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+          "version": "v1",
+          "code": "refuted",
+          "display": "Refuted"
+        } ]
+      },
+      "category": [ {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+          "code": "encounter-diagnosis",
+          "display": "Encounter Diagnosis"
+        } ]
+      } ],
+      "code": {
+        "coding": [ {
+          "system": "https://uberon.github.io/",
+          "version": "v1",
+          "code": "HP:0000637",
+          "display": "Long palpebral fissure"
+        } ],
+        "text": "Long palpebral fissure"
+      },
+      "subject": {
+        "reference": "Patient/315338"
+      }
+    },
+    "search": {
+      "mode": "match"
+    }
+  }, {
+    "fullUrl": "http://localhost:8000/Condition/315393",
+    "resource": {
+      "resourceType": "Condition",
+      "id": "315393",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2022-05-23T17:51:15.941+00:00",
+        "source": "#irDkGlZBbKWVh8YH",
+        "tag": [ {
+          "system": "https://fakeurl.org/fake-cmg/fhir/researchstudy",
+          "code": "FAKECMG"
+        } ]
+      },
+      "identifier": [ {
+        "use": "official",
+        "system": "https://fakeurl.org/fake-cmg/fhir/condition",
+        "value": "fd-sub4.HP:0011819"
+      } ],
+      "verificationStatus": {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+          "version": "v1",
+          "code": "refuted",
+          "display": "Refuted"
+        } ]
+      },
+      "category": [ {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+          "code": "encounter-diagnosis",
+          "display": "Encounter Diagnosis"
+        } ]
+      } ],
+      "code": {
+        "coding": [ {
+          "system": "https://uberon.github.io/",
+          "version": "v1",
+          "code": "HP:0011819",
+          "display": "Submucous cleft soft palate"
+        } ],
+        "text": "Submucous cleft soft palate"
+      },
+      "subject": {
+        "reference": "Patient/315341"
+      }
+    },
+    "search": {
+      "mode": "match"
+    }
+  }, {
+    "fullUrl": "http://localhost:8000/Condition/315357",
+    "resource": {
+      "resourceType": "Condition",
+      "id": "315357",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2022-05-23T17:51:13.827+00:00",
+        "source": "#MnrxD58mSiL34rHI",
+        "tag": [ {
+          "system": "https://fakeurl.org/fake-cmg/fhir/researchstudy",
+          "code": "FAKECMG"
+        } ]
+      },
+      "identifier": [ {
+        "use": "official",
+        "system": "https://fakeurl.org/fake-cmg/fhir/condition",
+        "value": "fd-sub1.HP:0000736"
+      } ],
+      "verificationStatus": {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+          "version": "v1",
+          "code": "refuted",
+          "display": "Refuted"
+        } ]
+      },
+      "category": [ {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+          "code": "encounter-diagnosis",
+          "display": "Encounter Diagnosis"
+        } ]
+      } ],
+      "code": {
+        "coding": [ {
+          "system": "https://uberon.github.io/",
+          "version": "v1",
+          "code": "HP:0000736",
+          "display": "Short attention span"
+        } ],
+        "text": "Short attention span"
+      },
+      "subject": {
+        "reference": "Patient/315338"
+      }
+    },
+    "search": {
+      "mode": "match"
+    }
+  }, {
+    "fullUrl": "http://localhost:8000/Condition/315394",
+    "resource": {
+      "resourceType": "Condition",
+      "id": "315394",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2022-05-23T17:51:15.994+00:00",
+        "source": "#zONgEZyYtr2Xtsy4",
+        "tag": [ {
+          "system": "https://fakeurl.org/fake-cmg/fhir/researchstudy",
+          "code": "FAKECMG"
+        } ]
+      },
+      "identifier": [ {
+        "use": "official",
+        "system": "https://fakeurl.org/fake-cmg/fhir/condition",
+        "value": "fd-sub5.HP:0000189"
+      } ],
+      "verificationStatus": {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+          "version": "v1",
+          "code": "refuted",
+          "display": "Refuted"
+        } ]
+      },
+      "category": [ {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+          "code": "encounter-diagnosis",
+          "display": "Encounter Diagnosis"
+        } ]
+      } ],
+      "code": {
+        "coding": [ {
+          "system": "https://uberon.github.io/",
+          "version": "v1",
+          "code": "HP:0000189",
+          "display": "Narrow palate"
+        } ],
+        "text": "Narrow palate"
+      },
+      "subject": {
+        "reference": "Patient/315342"
+      }
+    },
+    "search": {
+      "mode": "match"
+    }
+  }, {
+    "fullUrl": "http://localhost:8000/Condition/315395",
+    "resource": {
+      "resourceType": "Condition",
+      "id": "315395",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2022-05-23T17:51:16.048+00:00",
+        "source": "#ZHmHfmQkb8k6hkzW",
+        "tag": [ {
+          "system": "https://fakeurl.org/fake-cmg/fhir/researchstudy",
+          "code": "FAKECMG"
+        } ]
+      },
+      "identifier": [ {
+        "use": "official",
+        "system": "https://fakeurl.org/fake-cmg/fhir/condition",
+        "value": "fd-sub5.HP:0000218"
+      } ],
+      "verificationStatus": {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+          "version": "v1",
+          "code": "refuted",
+          "display": "Refuted"
+        } ]
+      },
+      "category": [ {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+          "code": "encounter-diagnosis",
+          "display": "Encounter Diagnosis"
+        } ]
+      } ],
+      "code": {
+        "coding": [ {
+          "system": "https://uberon.github.io/",
+          "version": "v1",
+          "code": "HP:0000218",
+          "display": "High palate"
+        } ],
+        "text": "High palate"
+      },
+      "subject": {
+        "reference": "Patient/315342"
+      }
+    },
+    "search": {
+      "mode": "match"
+    }
+  }, {
+    "fullUrl": "http://localhost:8000/Condition/315358",
+    "resource": {
+      "resourceType": "Condition",
+      "id": "315358",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2022-05-23T17:51:13.879+00:00",
+        "source": "#smQj7mugdZ2femmD",
+        "tag": [ {
+          "system": "https://fakeurl.org/fake-cmg/fhir/researchstudy",
+          "code": "FAKECMG"
+        } ]
+      },
+      "identifier": [ {
+        "use": "official",
+        "system": "https://fakeurl.org/fake-cmg/fhir/condition",
+        "value": "fd-sub1.HP:0000752"
+      } ],
+      "verificationStatus": {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+          "version": "v1",
+          "code": "refuted",
+          "display": "Refuted"
+        } ]
+      },
+      "category": [ {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+          "code": "encounter-diagnosis",
+          "display": "Encounter Diagnosis"
+        } ]
+      } ],
+      "code": {
+        "coding": [ {
+          "system": "https://uberon.github.io/",
+          "version": "v1",
+          "code": "HP:0000752",
+          "display": "Hyperactivity"
+        } ],
+        "text": "Hyperactivity"
+      },
+      "subject": {
+        "reference": "Patient/315338"
+      }
+    },
+    "search": {
+      "mode": "match"
+    }
+  }, {
+    "fullUrl": "http://localhost:8000/Condition/315396",
+    "resource": {
+      "resourceType": "Condition",
+      "id": "315396",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2022-05-23T17:51:16.104+00:00",
+        "source": "#5g3vmczZdvJ4XZhU",
+        "tag": [ {
+          "system": "https://fakeurl.org/fake-cmg/fhir/researchstudy",
+          "code": "FAKECMG"
+        } ]
+      },
+      "identifier": [ {
+        "use": "official",
+        "system": "https://fakeurl.org/fake-cmg/fhir/condition",
+        "value": "fd-sub5.HP:0000268"
+      } ],
+      "verificationStatus": {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+          "version": "v1",
+          "code": "refuted",
+          "display": "Refuted"
+        } ]
+      },
+      "category": [ {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+          "code": "encounter-diagnosis",
+          "display": "Encounter Diagnosis"
+        } ]
+      } ],
+      "code": {
+        "coding": [ {
+          "system": "https://uberon.github.io/",
+          "version": "v1",
+          "code": "HP:0000268",
+          "display": "Dolichocephaly"
+        } ],
+        "text": "Dolichocephaly"
+      },
+      "subject": {
+        "reference": "Patient/315342"
+      }
+    },
+    "search": {
+      "mode": "match"
+    }
+  }, {
+    "fullUrl": "http://localhost:8000/Condition/315359",
+    "resource": {
+      "resourceType": "Condition",
+      "id": "315359",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2022-05-23T17:51:13.936+00:00",
+        "source": "#HMZmJrr5dbExKmpL",
+        "tag": [ {
+          "system": "https://fakeurl.org/fake-cmg/fhir/researchstudy",
+          "code": "FAKECMG"
+        } ]
+      },
+      "identifier": [ {
+        "use": "official",
+        "system": "https://fakeurl.org/fake-cmg/fhir/condition",
+        "value": "fd-sub1.HP:0000767"
+      } ],
+      "verificationStatus": {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+          "version": "v1",
+          "code": "refuted",
+          "display": "Refuted"
+        } ]
+      },
+      "category": [ {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+          "code": "encounter-diagnosis",
+          "display": "Encounter Diagnosis"
+        } ]
+      } ],
+      "code": {
+        "coding": [ {
+          "system": "https://uberon.github.io/",
+          "version": "v1",
+          "code": "HP:0000767",
+          "display": "Pectus excavatum"
+        } ],
+        "text": "Pectus excavatum"
+      },
+      "subject": {
+        "reference": "Patient/315338"
+      }
+    },
+    "search": {
+      "mode": "match"
+    }
+  }, {
+    "fullUrl": "http://localhost:8000/Condition/315397",
+    "resource": {
+      "resourceType": "Condition",
+      "id": "315397",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2022-05-23T17:51:16.153+00:00",
+        "source": "#0W0cpXxdwFb9gbyD",
+        "tag": [ {
+          "system": "https://fakeurl.org/fake-cmg/fhir/researchstudy",
+          "code": "FAKECMG"
+        } ]
+      },
+      "identifier": [ {
+        "use": "official",
+        "system": "https://fakeurl.org/fake-cmg/fhir/condition",
+        "value": "fd-sub5.HP:0000272"
+      } ],
+      "verificationStatus": {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+          "version": "v1",
+          "code": "refuted",
+          "display": "Refuted"
+        } ]
+      },
+      "category": [ {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+          "code": "encounter-diagnosis",
+          "display": "Encounter Diagnosis"
+        } ]
+      } ],
+      "code": {
+        "coding": [ {
+          "system": "https://uberon.github.io/",
+          "version": "v1",
+          "code": "HP:0000272",
+          "display": "Malar flattening"
+        } ],
+        "text": "Malar flattening"
+      },
+      "subject": {
+        "reference": "Patient/315342"
+      }
+    },
+    "search": {
+      "mode": "match"
+    }
+  }, {
+    "fullUrl": "http://localhost:8000/Condition/315360",
+    "resource": {
+      "resourceType": "Condition",
+      "id": "315360",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2022-05-23T17:51:13.990+00:00",
+        "source": "#IalzMZbl1yVEspEE",
+        "tag": [ {
+          "system": "https://fakeurl.org/fake-cmg/fhir/researchstudy",
+          "code": "FAKECMG"
+        } ]
+      },
+      "identifier": [ {
+        "use": "official",
+        "system": "https://fakeurl.org/fake-cmg/fhir/condition",
+        "value": "fd-sub1.HP:0000960"
+      } ],
+      "verificationStatus": {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+          "version": "v1",
+          "code": "refuted",
+          "display": "Refuted"
+        } ]
+      },
+      "category": [ {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+          "code": "encounter-diagnosis",
+          "display": "Encounter Diagnosis"
+        } ]
+      } ],
+      "code": {
+        "coding": [ {
+          "system": "https://uberon.github.io/",
+          "version": "v1",
+          "code": "HP:0000960",
+          "display": "Sacral dimple"
+        } ],
+        "text": "Sacral dimple"
+      },
+      "subject": {
+        "reference": "Patient/315338"
+      }
+    },
+    "search": {
+      "mode": "match"
+    }
+  }, {
+    "fullUrl": "http://localhost:8000/Condition/315398",
+    "resource": {
+      "resourceType": "Condition",
+      "id": "315398",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2022-05-23T17:51:16.204+00:00",
+        "source": "#WJ6Lj7qvJYswtm2c",
+        "tag": [ {
+          "system": "https://fakeurl.org/fake-cmg/fhir/researchstudy",
+          "code": "FAKECMG"
+        } ]
+      },
+      "identifier": [ {
+        "use": "official",
+        "system": "https://fakeurl.org/fake-cmg/fhir/condition",
+        "value": "fd-sub5.HP:0000977"
+      } ],
+      "verificationStatus": {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+          "version": "v1",
+          "code": "refuted",
+          "display": "Refuted"
+        } ]
+      },
+      "category": [ {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+          "code": "encounter-diagnosis",
+          "display": "Encounter Diagnosis"
+        } ]
+      } ],
+      "code": {
+        "coding": [ {
+          "system": "https://uberon.github.io/",
+          "version": "v1",
+          "code": "HP:0000977",
+          "display": "Soft skin"
+        } ],
+        "text": "Soft skin"
+      },
+      "subject": {
+        "reference": "Patient/315342"
+      }
+    },
+    "search": {
+      "mode": "match"
+    }
+  }, {
+    "fullUrl": "http://localhost:8000/Condition/315399",
+    "resource": {
+      "resourceType": "Condition",
+      "id": "315399",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2022-05-23T17:51:16.252+00:00",
+        "source": "#MwZdtsFl8GH7NX2U",
+        "tag": [ {
+          "system": "https://fakeurl.org/fake-cmg/fhir/researchstudy",
+          "code": "FAKECMG"
+        } ]
+      },
+      "identifier": [ {
+        "use": "official",
+        "system": "https://fakeurl.org/fake-cmg/fhir/condition",
+        "value": "fd-sub5.HP:0001166"
+      } ],
+      "verificationStatus": {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+          "version": "v1",
+          "code": "refuted",
+          "display": "Refuted"
+        } ]
+      },
+      "category": [ {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+          "code": "encounter-diagnosis",
+          "display": "Encounter Diagnosis"
+        } ]
+      } ],
+      "code": {
+        "coding": [ {
+          "system": "https://uberon.github.io/",
+          "version": "v1",
+          "code": "HP:0001166",
+          "display": "Arachnodactyly"
+        } ],
+        "text": "Arachnodactyly"
+      },
+      "subject": {
+        "reference": "Patient/315342"
+      }
+    },
+    "search": {
+      "mode": "match"
+    }
+  }, {
+    "fullUrl": "http://localhost:8000/Condition/315361",
+    "resource": {
+      "resourceType": "Condition",
+      "id": "315361",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2022-05-23T17:51:14.046+00:00",
+        "source": "#ilhygSyTJpKT2mey",
+        "tag": [ {
+          "system": "https://fakeurl.org/fake-cmg/fhir/researchstudy",
+          "code": "FAKECMG"
+        } ]
+      },
+      "identifier": [ {
+        "use": "official",
+        "system": "https://fakeurl.org/fake-cmg/fhir/condition",
+        "value": "fd-sub1.HP:0001162"
+      } ],
+      "verificationStatus": {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+          "version": "v1",
+          "code": "refuted",
+          "display": "Refuted"
+        } ]
+      },
+      "category": [ {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+          "code": "encounter-diagnosis",
+          "display": "Encounter Diagnosis"
+        } ]
+      } ],
+      "code": {
+        "coding": [ {
+          "system": "https://uberon.github.io/",
+          "version": "v1",
+          "code": "HP:0001162",
+          "display": "Postaxial hand polydactyly"
+        } ],
+        "text": "Postaxial hand polydactyly"
+      },
+      "subject": {
+        "reference": "Patient/315338"
+      }
+    },
+    "search": {
+      "mode": "match"
+    }
+  }, {
+    "fullUrl": "http://localhost:8000/Condition/315400",
+    "resource": {
+      "resourceType": "Condition",
+      "id": "315400",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2022-05-23T17:51:16.298+00:00",
+        "source": "#bbDhbqJyzqoXRuZA",
+        "tag": [ {
+          "system": "https://fakeurl.org/fake-cmg/fhir/researchstudy",
+          "code": "FAKECMG"
+        } ]
+      },
+      "identifier": [ {
+        "use": "official",
+        "system": "https://fakeurl.org/fake-cmg/fhir/condition",
+        "value": "fd-sub5.HP:0001388"
+      } ],
+      "verificationStatus": {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+          "version": "v1",
+          "code": "refuted",
+          "display": "Refuted"
+        } ]
+      },
+      "category": [ {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+          "code": "encounter-diagnosis",
+          "display": "Encounter Diagnosis"
+        } ]
+      } ],
+      "code": {
+        "coding": [ {
+          "system": "https://uberon.github.io/",
+          "version": "v1",
+          "code": "HP:0001388",
+          "display": "Joint laxity"
+        } ],
+        "text": "Joint laxity"
+      },
+      "subject": {
+        "reference": "Patient/315342"
+      }
+    },
+    "search": {
+      "mode": "match"
+    }
+  }, {
+    "fullUrl": "http://localhost:8000/Condition/315362",
+    "resource": {
+      "resourceType": "Condition",
+      "id": "315362",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2022-05-23T17:51:14.119+00:00",
+        "source": "#hFw3hFNYWtnZDBLb",
+        "tag": [ {
+          "system": "https://fakeurl.org/fake-cmg/fhir/researchstudy",
+          "code": "FAKECMG"
+        } ]
+      },
+      "identifier": [ {
+        "use": "official",
+        "system": "https://fakeurl.org/fake-cmg/fhir/condition",
+        "value": "fd-sub1.HP:0001265"
+      } ],
+      "verificationStatus": {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+          "version": "v1",
+          "code": "refuted",
+          "display": "Refuted"
+        } ]
+      },
+      "category": [ {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+          "code": "encounter-diagnosis",
+          "display": "Encounter Diagnosis"
+        } ]
+      } ],
+      "code": {
+        "coding": [ {
+          "system": "https://uberon.github.io/",
+          "version": "v1",
+          "code": "HP:0001265",
+          "display": "Hyporeflexia"
+        } ],
+        "text": "Hyporeflexia"
+      },
+      "subject": {
+        "reference": "Patient/315338"
+      }
+    },
+    "search": {
+      "mode": "match"
+    }
+  }, {
+    "fullUrl": "http://localhost:8000/Condition/315401",
+    "resource": {
+      "resourceType": "Condition",
+      "id": "315401",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2022-05-23T17:51:16.347+00:00",
+        "source": "#uA0PVQ7C0PphVC9E",
+        "tag": [ {
+          "system": "https://fakeurl.org/fake-cmg/fhir/researchstudy",
+          "code": "FAKECMG"
+        } ]
+      },
+      "identifier": [ {
+        "use": "official",
+        "system": "https://fakeurl.org/fake-cmg/fhir/condition",
+        "value": "fd-sub5.HP:0002616"
+      } ],
+      "verificationStatus": {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+          "version": "v1",
+          "code": "refuted",
+          "display": "Refuted"
+        } ]
+      },
+      "category": [ {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+          "code": "encounter-diagnosis",
+          "display": "Encounter Diagnosis"
+        } ]
+      } ],
+      "code": {
+        "coding": [ {
+          "system": "https://uberon.github.io/",
+          "version": "v1",
+          "code": "HP:0002616",
+          "display": "Aortic root aneurysm"
+        } ],
+        "text": "Aortic root aneurysm"
+      },
+      "subject": {
+        "reference": "Patient/315342"
+      }
+    },
+    "search": {
+      "mode": "match"
+    }
+  }, {
+    "fullUrl": "http://localhost:8000/Condition/315363",
+    "resource": {
+      "resourceType": "Condition",
+      "id": "315363",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2022-05-23T17:51:14.388+00:00",
+        "source": "#FbidpxbTobuSFJNV",
+        "tag": [ {
+          "system": "https://fakeurl.org/fake-cmg/fhir/researchstudy",
+          "code": "FAKECMG"
+        } ]
+      },
+      "identifier": [ {
+        "use": "official",
+        "system": "https://fakeurl.org/fake-cmg/fhir/condition",
+        "value": "fd-sub1.HP:0001385"
+      } ],
+      "verificationStatus": {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+          "version": "v1",
+          "code": "refuted",
+          "display": "Refuted"
+        } ]
+      },
+      "category": [ {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+          "code": "encounter-diagnosis",
+          "display": "Encounter Diagnosis"
+        } ]
+      } ],
+      "code": {
+        "coding": [ {
+          "system": "https://uberon.github.io/",
+          "version": "v1",
+          "code": "HP:0001385",
+          "display": "Hip dysplasia"
+        } ],
+        "text": "Hip dysplasia"
+      },
+      "subject": {
+        "reference": "Patient/315338"
+      }
+    },
+    "search": {
+      "mode": "match"
+    }
+  }, {
+    "fullUrl": "http://localhost:8000/Condition/315402",
+    "resource": {
+      "resourceType": "Condition",
+      "id": "315402",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2022-05-23T17:51:16.394+00:00",
+        "source": "#kCJAV7pISzJN5gYz",
+        "tag": [ {
+          "system": "https://fakeurl.org/fake-cmg/fhir/researchstudy",
+          "code": "FAKECMG"
+        } ]
+      },
+      "identifier": [ {
+        "use": "official",
+        "system": "https://fakeurl.org/fake-cmg/fhir/condition",
+        "value": "fd-sub5.HP:0005116"
+      } ],
+      "verificationStatus": {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+          "version": "v1",
+          "code": "refuted",
+          "display": "Refuted"
+        } ]
+      },
+      "category": [ {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+          "code": "encounter-diagnosis",
+          "display": "Encounter Diagnosis"
+        } ]
+      } ],
+      "code": {
+        "coding": [ {
+          "system": "https://uberon.github.io/",
+          "version": "v1",
+          "code": "HP:0005116",
+          "display": "Arterial tortuosity"
+        } ],
+        "text": "Arterial tortuosity"
+      },
+      "subject": {
+        "reference": "Patient/315342"
+      }
+    },
+    "search": {
+      "mode": "match"
+    }
+  }, {
+    "fullUrl": "http://localhost:8000/Condition/315403",
+    "resource": {
+      "resourceType": "Condition",
+      "id": "315403",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2022-05-23T17:51:16.442+00:00",
+        "source": "#9JKIHucNv88aadHA",
+        "tag": [ {
+          "system": "https://fakeurl.org/fake-cmg/fhir/researchstudy",
+          "code": "FAKECMG"
+        } ]
+      },
+      "identifier": [ {
+        "use": "official",
+        "system": "https://fakeurl.org/fake-cmg/fhir/condition",
+        "value": "fd-sub5.HP:0010648"
+      } ],
+      "verificationStatus": {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+          "version": "v1",
+          "code": "refuted",
+          "display": "Refuted"
+        } ]
+      },
+      "category": [ {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+          "code": "encounter-diagnosis",
+          "display": "Encounter Diagnosis"
+        } ]
+      } ],
+      "code": {
+        "coding": [ {
+          "system": "https://uberon.github.io/",
+          "version": "v1",
+          "code": "HP:0010648",
+          "display": "Dermal translucency"
+        } ],
+        "text": "Dermal translucency"
+      },
+      "subject": {
+        "reference": "Patient/315342"
+      }
+    },
+    "search": {
+      "mode": "match"
+    }
+  }, {
+    "fullUrl": "http://localhost:8000/Condition/315364",
+    "resource": {
+      "resourceType": "Condition",
+      "id": "315364",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2022-05-23T17:51:14.458+00:00",
+        "source": "#pNgQqHfu8CZw3g1H",
+        "tag": [ {
+          "system": "https://fakeurl.org/fake-cmg/fhir/researchstudy",
+          "code": "FAKECMG"
+        } ]
+      },
+      "identifier": [ {
+        "use": "official",
+        "system": "https://fakeurl.org/fake-cmg/fhir/condition",
+        "value": "fd-sub1.HP:0001647"
+      } ],
+      "verificationStatus": {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+          "version": "v1",
+          "code": "refuted",
+          "display": "Refuted"
+        } ]
+      },
+      "category": [ {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+          "code": "encounter-diagnosis",
+          "display": "Encounter Diagnosis"
+        } ]
+      } ],
+      "code": {
+        "coding": [ {
+          "system": "https://uberon.github.io/",
+          "version": "v1",
+          "code": "HP:0001647",
+          "display": "Bicuspid aortic valve"
+        } ],
+        "text": "Bicuspid aortic valve"
+      },
+      "subject": {
+        "reference": "Patient/315338"
+      }
+    },
+    "search": {
+      "mode": "match"
+    }
+  }, {
+    "fullUrl": "http://localhost:8000/Condition/315404",
+    "resource": {
+      "resourceType": "Condition",
+      "id": "315404",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2022-05-23T17:51:16.492+00:00",
+        "source": "#9l5w819NK0gdid1L",
+        "tag": [ {
+          "system": "https://fakeurl.org/fake-cmg/fhir/researchstudy",
+          "code": "FAKECMG"
+        } ]
+      },
+      "identifier": [ {
+        "use": "official",
+        "system": "https://fakeurl.org/fake-cmg/fhir/condition",
+        "value": "fd-sub5.HP:0000347"
+      } ],
+      "verificationStatus": {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+          "version": "v1",
+          "code": "refuted",
+          "display": "Refuted"
+        } ]
+      },
+      "category": [ {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+          "code": "encounter-diagnosis",
+          "display": "Encounter Diagnosis"
+        } ]
+      } ],
+      "code": {
+        "coding": [ {
+          "system": "https://uberon.github.io/",
+          "version": "v1",
+          "code": "HP:0000347",
+          "display": "Micrognathia"
+        } ],
+        "text": "Micrognathia"
+      },
+      "subject": {
+        "reference": "Patient/315342"
+      }
+    },
+    "search": {
+      "mode": "match"
+    }
+  }, {
+    "fullUrl": "http://localhost:8000/Condition/315365",
+    "resource": {
+      "resourceType": "Condition",
+      "id": "315365",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2022-05-23T17:51:14.508+00:00",
+        "source": "#ngpT4l6e00fRbXTe",
+        "tag": [ {
+          "system": "https://fakeurl.org/fake-cmg/fhir/researchstudy",
+          "code": "FAKECMG"
+        } ]
+      },
+      "identifier": [ {
+        "use": "official",
+        "system": "https://fakeurl.org/fake-cmg/fhir/condition",
+        "value": "fd-sub1.HP:0001845"
+      } ],
+      "verificationStatus": {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+          "version": "v1",
+          "code": "refuted",
+          "display": "Refuted"
+        } ]
+      },
+      "category": [ {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+          "code": "encounter-diagnosis",
+          "display": "Encounter Diagnosis"
+        } ]
+      } ],
+      "code": {
+        "coding": [ {
+          "system": "https://uberon.github.io/",
+          "version": "v1",
+          "code": "HP:0001845",
+          "display": "Overlapping toe"
+        } ],
+        "text": "Overlapping toe"
+      },
+      "subject": {
+        "reference": "Patient/315338"
+      }
+    },
+    "search": {
+      "mode": "match"
+    }
+  }, {
+    "fullUrl": "http://localhost:8000/Condition/315405",
+    "resource": {
+      "resourceType": "Condition",
+      "id": "315405",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2022-05-23T17:51:16.540+00:00",
+        "source": "#tMoz2V6kVKIMX9TT",
+        "tag": [ {
+          "system": "https://fakeurl.org/fake-cmg/fhir/researchstudy",
+          "code": "FAKECMG"
+        } ]
+      },
+      "identifier": [ {
+        "use": "official",
+        "system": "https://fakeurl.org/fake-cmg/fhir/condition",
+        "value": "fd-sub5.HP:0012804"
+      } ],
+      "verificationStatus": {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+          "version": "v1",
+          "code": "confirmed",
+          "display": "Confirmed"
+        } ]
+      },
+      "category": [ {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+          "code": "encounter-diagnosis",
+          "display": "Encounter Diagnosis"
+        } ]
+      } ],
+      "code": {
+        "coding": [ {
+          "system": "https://uberon.github.io/",
+          "version": "v1",
+          "code": "HP:0012804",
+          "display": "Corneal ulceration"
+        } ],
+        "text": "Corneal ulceration"
+      },
+      "subject": {
+        "reference": "Patient/315342"
+      }
+    },
+    "search": {
+      "mode": "match"
+    }
+  }, {
+    "fullUrl": "http://localhost:8000/Condition/315366",
+    "resource": {
+      "resourceType": "Condition",
+      "id": "315366",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2022-05-23T17:51:14.554+00:00",
+        "source": "#CW88cdmPCMyn93MC",
+        "tag": [ {
+          "system": "https://fakeurl.org/fake-cmg/fhir/researchstudy",
+          "code": "FAKECMG"
+        } ]
+      },
+      "identifier": [ {
+        "use": "official",
+        "system": "https://fakeurl.org/fake-cmg/fhir/condition",
+        "value": "fd-sub1.HP:0002019"
+      } ],
+      "verificationStatus": {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+          "version": "v1",
+          "code": "refuted",
+          "display": "Refuted"
+        } ]
+      },
+      "category": [ {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+          "code": "encounter-diagnosis",
+          "display": "Encounter Diagnosis"
+        } ]
+      } ],
+      "code": {
+        "coding": [ {
+          "system": "https://uberon.github.io/",
+          "version": "v1",
+          "code": "HP:0002019",
+          "display": "Constipation"
+        } ],
+        "text": "Constipation"
+      },
+      "subject": {
+        "reference": "Patient/315338"
+      }
+    },
+    "search": {
+      "mode": "match"
+    }
+  }, {
+    "fullUrl": "http://localhost:8000/Condition/315406",
+    "resource": {
+      "resourceType": "Condition",
+      "id": "315406",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2022-05-23T17:51:16.589+00:00",
+        "source": "#3UVF81BMps4YvCaG",
+        "tag": [ {
+          "system": "https://fakeurl.org/fake-cmg/fhir/researchstudy",
+          "code": "FAKECMG"
+        } ]
+      },
+      "identifier": [ {
+        "use": "official",
+        "system": "https://fakeurl.org/fake-cmg/fhir/condition",
+        "value": "fd-sub5.HP:0003468"
+      } ],
+      "verificationStatus": {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+          "version": "v1",
+          "code": "confirmed",
+          "display": "Confirmed"
+        } ]
+      },
+      "category": [ {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+          "code": "encounter-diagnosis",
+          "display": "Encounter Diagnosis"
+        } ]
+      } ],
+      "code": {
+        "coding": [ {
+          "system": "https://uberon.github.io/",
+          "version": "v1",
+          "code": "HP:0003468",
+          "display": "Abnormal vertebral morphology"
+        } ],
+        "text": "Abnormal vertebral morphology"
+      },
+      "subject": {
+        "reference": "Patient/315342"
+      }
+    },
+    "search": {
+      "mode": "match"
+    }
+  }, {
+    "fullUrl": "http://localhost:8000/Condition/315367",
+    "resource": {
+      "resourceType": "Condition",
+      "id": "315367",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2022-05-23T17:51:14.610+00:00",
+        "source": "#DgM0Gsfee5CMLWvJ",
+        "tag": [ {
+          "system": "https://fakeurl.org/fake-cmg/fhir/researchstudy",
+          "code": "FAKECMG"
+        } ]
+      },
+      "identifier": [ {
+        "use": "official",
+        "system": "https://fakeurl.org/fake-cmg/fhir/condition",
+        "value": "fd-sub1.HP:0002020"
+      } ],
+      "verificationStatus": {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+          "version": "v1",
+          "code": "refuted",
+          "display": "Refuted"
+        } ]
+      },
+      "category": [ {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+          "code": "encounter-diagnosis",
+          "display": "Encounter Diagnosis"
+        } ]
+      } ],
+      "code": {
+        "coding": [ {
+          "system": "https://uberon.github.io/",
+          "version": "v1",
+          "code": "HP:0002020",
+          "display": "Gastroesophageal reflux"
+        } ],
+        "text": "Gastroesophageal reflux"
+      },
+      "subject": {
+        "reference": "Patient/315338"
+      }
+    },
+    "search": {
+      "mode": "match"
+    }
+  }, {
+    "fullUrl": "http://localhost:8000/Condition/315407",
+    "resource": {
+      "resourceType": "Condition",
+      "id": "315407",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2022-05-23T17:51:16.636+00:00",
+        "source": "#ijnfUOW4KiY4Cfk7",
+        "tag": [ {
+          "system": "https://fakeurl.org/fake-cmg/fhir/researchstudy",
+          "code": "FAKECMG"
+        } ]
+      },
+      "identifier": [ {
+        "use": "official",
+        "system": "https://fakeurl.org/fake-cmg/fhir/condition",
+        "value": "fd-sub7.HP:0000845"
+      } ],
+      "verificationStatus": {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+          "version": "v1",
+          "code": "refuted",
+          "display": "Refuted"
+        } ]
+      },
+      "category": [ {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+          "code": "encounter-diagnosis",
+          "display": "Encounter Diagnosis"
+        } ]
+      } ],
+      "code": {
+        "coding": [ {
+          "system": "https://uberon.github.io/",
+          "version": "v1",
+          "code": "HP:0000845",
+          "display": "Elevated circulating growth hormone concentration"
+        } ],
+        "text": "Elevated circulating growth hormone concentration"
+      },
+      "subject": {
+        "reference": "Patient/315344"
+      }
+    },
+    "search": {
+      "mode": "match"
+    }
+  }, {
+    "fullUrl": "http://localhost:8000/Condition/315368",
+    "resource": {
+      "resourceType": "Condition",
+      "id": "315368",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2022-05-23T17:51:14.662+00:00",
+        "source": "#fMQYYLgt3HL2CRjS",
+        "tag": [ {
+          "system": "https://fakeurl.org/fake-cmg/fhir/researchstudy",
+          "code": "FAKECMG"
+        } ]
+      },
+      "identifier": [ {
+        "use": "official",
+        "system": "https://fakeurl.org/fake-cmg/fhir/condition",
+        "value": "fd-sub1.HP:0002342"
+      } ],
+      "verificationStatus": {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+          "version": "v1",
+          "code": "refuted",
+          "display": "Refuted"
+        } ]
+      },
+      "category": [ {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+          "code": "encounter-diagnosis",
+          "display": "Encounter Diagnosis"
+        } ]
+      } ],
+      "code": {
+        "coding": [ {
+          "system": "https://uberon.github.io/",
+          "version": "v1",
+          "code": "HP:0002342",
+          "display": "Intellectual disability, moderate"
+        } ],
+        "text": "Intellectual disability, moderate"
+      },
+      "subject": {
+        "reference": "Patient/315338"
+      }
+    },
+    "search": {
+      "mode": "match"
+    }
+  }, {
+    "fullUrl": "http://localhost:8000/Condition/315408",
+    "resource": {
+      "resourceType": "Condition",
+      "id": "315408",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2022-05-23T17:51:16.686+00:00",
+        "source": "#tdMVdYIwOq5sqRY8",
+        "tag": [ {
+          "system": "https://fakeurl.org/fake-cmg/fhir/researchstudy",
+          "code": "FAKECMG"
+        } ]
+      },
+      "identifier": [ {
+        "use": "official",
+        "system": "https://fakeurl.org/fake-cmg/fhir/condition",
+        "value": "fd-sub8.HP:0012804"
+      } ],
+      "verificationStatus": {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+          "version": "v1",
+          "code": "confirmed",
+          "display": "Confirmed"
+        } ]
+      },
+      "category": [ {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+          "code": "encounter-diagnosis",
+          "display": "Encounter Diagnosis"
+        } ]
+      } ],
+      "code": {
+        "coding": [ {
+          "system": "https://uberon.github.io/",
+          "version": "v1",
+          "code": "HP:0012804",
+          "display": "Corneal ulceration"
+        } ],
+        "text": "Corneal ulceration"
+      },
+      "subject": {
+        "reference": "Patient/315345"
+      }
+    },
+    "search": {
+      "mode": "match"
+    }
+  }, {
+    "fullUrl": "http://localhost:8000/Condition/315369",
+    "resource": {
+      "resourceType": "Condition",
+      "id": "315369",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2022-05-23T17:51:14.717+00:00",
+        "source": "#uKjzyZgYivQb4gRR",
+        "tag": [ {
+          "system": "https://fakeurl.org/fake-cmg/fhir/researchstudy",
+          "code": "FAKECMG"
+        } ]
+      },
+      "identifier": [ {
+        "use": "official",
+        "system": "https://fakeurl.org/fake-cmg/fhir/condition",
+        "value": "fd-sub1.HP:0002558"
+      } ],
+      "verificationStatus": {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+          "version": "v1",
+          "code": "refuted",
+          "display": "Refuted"
+        } ]
+      },
+      "category": [ {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+          "code": "encounter-diagnosis",
+          "display": "Encounter Diagnosis"
+        } ]
+      } ],
+      "code": {
+        "coding": [ {
+          "system": "https://uberon.github.io/",
+          "version": "v1",
+          "code": "HP:0002558",
+          "display": "Supernumerary nipple"
+        } ],
+        "text": "Supernumerary nipple"
+      },
+      "subject": {
+        "reference": "Patient/315338"
+      }
+    },
+    "search": {
+      "mode": "match"
+    }
+  }, {
+    "fullUrl": "http://localhost:8000/Condition/315409",
+    "resource": {
+      "resourceType": "Condition",
+      "id": "315409",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2022-05-23T17:51:16.737+00:00",
+        "source": "#22O5qReSwvYn4Ldi",
+        "tag": [ {
+          "system": "https://fakeurl.org/fake-cmg/fhir/researchstudy",
+          "code": "FAKECMG"
+        } ]
+      },
+      "identifier": [ {
+        "use": "official",
+        "system": "https://fakeurl.org/fake-cmg/fhir/condition",
+        "value": "fd-sub8.HP:0003468"
+      } ],
+      "verificationStatus": {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+          "version": "v1",
+          "code": "confirmed",
+          "display": "Confirmed"
+        } ]
+      },
+      "category": [ {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+          "code": "encounter-diagnosis",
+          "display": "Encounter Diagnosis"
+        } ]
+      } ],
+      "code": {
+        "coding": [ {
+          "system": "https://uberon.github.io/",
+          "version": "v1",
+          "code": "HP:0003468",
+          "display": "Abnormal vertebral morphology"
+        } ],
+        "text": "Abnormal vertebral morphology"
+      },
+      "subject": {
+        "reference": "Patient/315345"
+      }
+    },
+    "search": {
+      "mode": "match"
+    }
+  }, {
+    "fullUrl": "http://localhost:8000/Condition/315410",
+    "resource": {
+      "resourceType": "Condition",
+      "id": "315410",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2022-05-23T17:51:16.789+00:00",
+        "source": "#3BTr4SQLEhOKCOQL",
+        "tag": [ {
+          "system": "https://fakeurl.org/fake-cmg/fhir/researchstudy",
+          "code": "FAKECMG"
+        } ]
+      },
+      "identifier": [ {
+        "use": "official",
+        "system": "https://fakeurl.org/fake-cmg/fhir/condition",
+        "value": "fd-sub9.HP:0001578"
+      } ],
+      "verificationStatus": {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+          "version": "v1",
+          "code": "refuted",
+          "display": "Refuted"
+        } ]
+      },
+      "category": [ {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+          "code": "encounter-diagnosis",
+          "display": "Encounter Diagnosis"
+        } ]
+      } ],
+      "code": {
+        "coding": [ {
+          "system": "https://uberon.github.io/",
+          "version": "v1",
+          "code": "HP:0001578",
+          "display": "Increased circulating cortisol level"
+        } ],
+        "text": "Increased circulating cortisol level"
+      },
+      "subject": {
+        "reference": "Patient/315346"
+      }
+    },
+    "search": {
+      "mode": "match"
+    }
+  }, {
+    "fullUrl": "http://localhost:8000/Condition/315370",
+    "resource": {
+      "resourceType": "Condition",
+      "id": "315370",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2022-05-23T17:51:14.765+00:00",
+        "source": "#864SpCJNAuW18THj",
+        "tag": [ {
+          "system": "https://fakeurl.org/fake-cmg/fhir/researchstudy",
+          "code": "FAKECMG"
+        } ]
+      },
+      "identifier": [ {
+        "use": "official",
+        "system": "https://fakeurl.org/fake-cmg/fhir/condition",
+        "value": "fd-sub1.HP:0002650"
+      } ],
+      "verificationStatus": {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+          "version": "v1",
+          "code": "refuted",
+          "display": "Refuted"
+        } ]
+      },
+      "category": [ {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+          "code": "encounter-diagnosis",
+          "display": "Encounter Diagnosis"
+        } ]
+      } ],
+      "code": {
+        "coding": [ {
+          "system": "https://uberon.github.io/",
+          "version": "v1",
+          "code": "HP:0002650",
+          "display": "Scoliosis"
+        } ],
+        "text": "Scoliosis"
+      },
+      "subject": {
+        "reference": "Patient/315338"
+      }
+    },
+    "search": {
+      "mode": "match"
+    }
+  }, {
+    "fullUrl": "http://localhost:8000/Condition/315371",
+    "resource": {
+      "resourceType": "Condition",
+      "id": "315371",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2022-05-23T17:51:14.815+00:00",
+        "source": "#rUpy3cLoOq9ryebT",
+        "tag": [ {
+          "system": "https://fakeurl.org/fake-cmg/fhir/researchstudy",
+          "code": "FAKECMG"
+        } ]
+      },
+      "identifier": [ {
+        "use": "official",
+        "system": "https://fakeurl.org/fake-cmg/fhir/condition",
+        "value": "fd-sub1.HP:0003186"
+      } ],
+      "verificationStatus": {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+          "version": "v1",
+          "code": "refuted",
+          "display": "Refuted"
+        } ]
+      },
+      "category": [ {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+          "code": "encounter-diagnosis",
+          "display": "Encounter Diagnosis"
+        } ]
+      } ],
+      "code": {
+        "coding": [ {
+          "system": "https://uberon.github.io/",
+          "version": "v1",
+          "code": "HP:0003186",
+          "display": "Inverted nipples"
+        } ],
+        "text": "Inverted nipples"
+      },
+      "subject": {
+        "reference": "Patient/315338"
+      }
+    },
+    "search": {
+      "mode": "match"
+    }
+  }, {
+    "fullUrl": "http://localhost:8000/Condition/315372",
+    "resource": {
+      "resourceType": "Condition",
+      "id": "315372",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2022-05-23T17:51:14.865+00:00",
+        "source": "#bCkTGShGoTuZT9QI",
+        "tag": [ {
+          "system": "https://fakeurl.org/fake-cmg/fhir/researchstudy",
+          "code": "FAKECMG"
+        } ]
+      },
+      "identifier": [ {
+        "use": "official",
+        "system": "https://fakeurl.org/fake-cmg/fhir/condition",
+        "value": "fd-sub1.HP:0003191"
+      } ],
+      "verificationStatus": {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+          "version": "v1",
+          "code": "refuted",
+          "display": "Refuted"
+        } ]
+      },
+      "category": [ {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+          "code": "encounter-diagnosis",
+          "display": "Encounter Diagnosis"
+        } ]
+      } ],
+      "code": {
+        "coding": [ {
+          "system": "https://uberon.github.io/",
+          "version": "v1",
+          "code": "HP:0003191",
+          "display": "Cleft ala nasi"
+        } ],
+        "text": "Cleft ala nasi"
+      },
+      "subject": {
+        "reference": "Patient/315338"
+      }
+    },
+    "search": {
+      "mode": "match"
+    }
+  }, {
+    "fullUrl": "http://localhost:8000/Condition/315373",
+    "resource": {
+      "resourceType": "Condition",
+      "id": "315373",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2022-05-23T17:51:14.915+00:00",
+        "source": "#cPPhTTtXefKyCtfC",
+        "tag": [ {
+          "system": "https://fakeurl.org/fake-cmg/fhir/researchstudy",
+          "code": "FAKECMG"
+        } ]
+      },
+      "identifier": [ {
+        "use": "official",
+        "system": "https://fakeurl.org/fake-cmg/fhir/condition",
+        "value": "fd-sub1.HP:0003429"
+      } ],
+      "verificationStatus": {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+          "version": "v1",
+          "code": "refuted",
+          "display": "Refuted"
+        } ]
+      },
+      "category": [ {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+          "code": "encounter-diagnosis",
+          "display": "Encounter Diagnosis"
+        } ]
+      } ],
+      "code": {
+        "coding": [ {
+          "system": "https://uberon.github.io/",
+          "version": "v1",
+          "code": "HP:0003429",
+          "display": "CNS hypomyelination"
+        } ],
+        "text": "CNS hypomyelination"
+      },
+      "subject": {
+        "reference": "Patient/315338"
+      }
+    },
+    "search": {
+      "mode": "match"
+    }
+  }, {
+    "fullUrl": "http://localhost:8000/Condition/315374",
+    "resource": {
+      "resourceType": "Condition",
+      "id": "315374",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2022-05-23T17:51:14.964+00:00",
+        "source": "#MmRT0hbOSfohRevw",
+        "tag": [ {
+          "system": "https://fakeurl.org/fake-cmg/fhir/researchstudy",
+          "code": "FAKECMG"
+        } ]
+      },
+      "identifier": [ {
+        "use": "official",
+        "system": "https://fakeurl.org/fake-cmg/fhir/condition",
+        "value": "fd-sub1.HP:0008577"
+      } ],
+      "verificationStatus": {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+          "version": "v1",
+          "code": "refuted",
+          "display": "Refuted"
+        } ]
+      },
+      "category": [ {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+          "code": "encounter-diagnosis",
+          "display": "Encounter Diagnosis"
+        } ]
+      } ],
+      "code": {
+        "coding": [ {
+          "system": "https://uberon.github.io/",
+          "version": "v1",
+          "code": "HP:0008577",
+          "display": "Underfolded helix"
+        } ],
+        "text": "Underfolded helix"
+      },
+      "subject": {
+        "reference": "Patient/315338"
+      }
+    },
+    "search": {
+      "mode": "match"
+    }
+  } ]
+}
