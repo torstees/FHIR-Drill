@@ -24,19 +24,12 @@ Each entry from the bundle's entry list is wrapped up inside an package which co
 For the purposes of this test, each of the JSON files will contain only one Bundle. Each of those bundles will contain several distinct resource objects. 
 
 ## Patients
-FHIR was designed for interchanging electronic healthcare records, of which, the Patient is a fundamental key. In FHIR, a Patient resource describes a patient of some kind. This is resource where typical "demographic" information will be recorded. Date of Birth, Gender, name, etc are all standard features of the FHIR Patient resource. Because of the special relationship between researchers and the research subjects, most of the typical information that might go inside a Patient record is intentionally unavailable to the researcher. So, for research representation, date-of-birth, name, birthplace, and most other identifiable information will never be found in resources representing conventional resources. 
-
-In addition to the sparse nature of our Patient records, while most people think of patients being human, there are needs to share information about non-human patients as well. As such, things like Race and Ethnicity which don't directly apply to horses and other non-humans and are required to be added as "Extensions". These will all be child resources of the Patient's "extension" property. 
-
-Extensions can be quite verbose and most of the content isn't important for the purposes of this test. What you'll want to capture is the human readable representation, which can be found in a couple of different places for a given extension object. 
-
-Please note that if a patient's race isn't present in the data, the extension property will not be present in the patient resource. 
+FHIR was designed for interchanging electronic healthcare records, of which, the Patient is a central component. In FHIR, a Patient resource describes a patient of some kind. This is resource where typical "demographic" information will be recorded. Date of Birth, Gender, name, etc are all standard features of the FHIR Patient resource. Because of the special relationship between researchers and the research subjects, most of the typical information that might go inside a Patient record is intentionally unavailable to the researcher. So, for research representation, date-of-birth, name, birthplace, and most other identifiable information will never be found in resources representing conventional resources. 
 
 Key fields of interest:
 * id -- This is the internal ID, specific to the FHIR server where the record was generated. This ID will ONLY represent this particular patient ONLY in the given server. In otherwords, this ID is meaningless outside the FHIR server where the record was pulled. This is used by conditions to reference the patient for whom the condition is describing. 
 * gender  -- This is really only intended to capture administrative gender, which is very basic.
 * identifier -- This indicates the unique ID associated to with the resource itself
-* extension -- This just points to a list of extensions. 
 
 ## Conditions
 Condition resources are intended to represent medical conditions, problems and diagnoses. For the purposes of this test, they represent phenotypic abnormalities. 
@@ -69,7 +62,7 @@ formatter as a 1st class citizen of the language, e.g. [Golang](https://golang.o
 [gofmt](https://golang.org/cmd/gofmt/) tool.  In these situations, you _must_ use the language's provided formatter.
 
 # The Challenge
-The goal of this challenge is to parse the two bundles and provide a list of patients. Allow the user to select a patient to see details about the sex and race (if available) as well as all phenotypes observed and absent. Also, provide a way to "search" for patients with phenotypes (display and code) that match a pattern provided by the user (i.e. a search box).
+The goal of this challenge is to parse the two bundles and provide a list of patients. Allow the user to select a patient to see details about the sex, id and the identifier as well as all phenotypes observed and absent (it should be obvious to the user if a given phenotype is absent or present. This can be done using different 'columns' or color coded in some way). Also, provide a way to "search" for patients with phenotypes (display and code) that match a pattern provided by the user (i.e. a search box).
 
 [Patient Bundle](https://github.com/torstees/FHIR-Drill/blob/main/resources/Fake_CMG-Patient.json) contains 9 patient resources. 
 
