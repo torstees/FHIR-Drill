@@ -1,8 +1,8 @@
 {
   "resourceType": "Bundle",
-  "id": "d1d52d84-0ce4-4322-a165-3b113a108f53",
+  "id": "ac5d43ce-d822-4e3c-ba0f-8b0c11ae8e9e",
   "meta": {
-    "lastUpdated": "2022-05-23T20:13:14.017+00:00"
+    "lastUpdated": "2022-05-24T15:03:36.957+00:00"
   },
   "type": "searchset",
   "total": 9,
@@ -40,29 +40,14 @@
       "resourceType": "Patient",
       "id": "315339",
       "meta": {
-        "versionId": "4",
-        "lastUpdated": "2022-05-23T19:22:14.527+00:00",
-        "source": "#EIdhI1fSIqkyUbhU",
+        "versionId": "5",
+        "lastUpdated": "2022-05-24T15:03:16.916+00:00",
+        "source": "#v4CngHLmfvnhUcM8",
         "tag": [ {
           "system": "https://fakeurl.org/fake-cmg/fhir/researchstudy",
           "code": "FAKECMG"
         } ]
       },
-      "extension": [ {
-        "url": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-race",
-        "extension": [ {
-          "url": "ombCategory",
-          "valueCoding": {
-            "system": "urn:oid:2.16.840.1.113883.6.238",
-            "version": "v1",
-            "code": "2028-9",
-            "display": "White"
-          }
-        }, {
-          "url": "text",
-          "valueString": "White"
-        } ]
-      } ],
       "identifier": [ {
         "use": "official",
         "system": "https://fakeurl.org/fake-cmg/fhir/patient",
@@ -79,29 +64,14 @@
       "resourceType": "Patient",
       "id": "315340",
       "meta": {
-        "versionId": "4",
-        "lastUpdated": "2022-05-23T19:22:14.584+00:00",
-        "source": "#gw7Psn0eOaLO7kc2",
+        "versionId": "5",
+        "lastUpdated": "2022-05-24T15:03:16.916+00:00",
+        "source": "#q5VnUV4ktv8mbskV",
         "tag": [ {
           "system": "https://fakeurl.org/fake-cmg/fhir/researchstudy",
           "code": "FAKECMG"
         } ]
       },
-      "extension": [ {
-        "url": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-race",
-        "extension": [ {
-          "url": "ombCategory",
-          "valueCoding": {
-            "system": "urn:oid:2.16.840.1.113883.6.238",
-            "version": "v1",
-            "code": "2028-9",
-            "display": "White"
-          }
-        }, {
-          "url": "text",
-          "valueString": "White"
-        } ]
-      } ],
       "identifier": [ {
         "use": "official",
         "system": "https://fakeurl.org/fake-cmg/fhir/patient",
@@ -118,29 +88,14 @@
       "resourceType": "Patient",
       "id": "315341",
       "meta": {
-        "versionId": "4",
-        "lastUpdated": "2022-05-23T19:23:32.836+00:00",
-        "source": "#0C8dB88DHYQfnE3x",
+        "versionId": "5",
+        "lastUpdated": "2022-05-24T15:03:16.916+00:00",
+        "source": "#Lra3wBSjtoUV1DWw",
         "tag": [ {
           "system": "https://fakeurl.org/fake-cmg/fhir/researchstudy",
           "code": "FAKECMG"
         } ]
       },
-      "extension": [ {
-        "url": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-race",
-        "extension": [ {
-          "url": "ombCategory",
-          "valueCoding": {
-            "system": "urn:oid:2.16.840.1.113883.6.238",
-            "version": "v1",
-            "code": "2054-5",
-            "display": "Black or African American"
-          }
-        }, {
-          "url": "text",
-          "valueString": "Black or African American"
-        } ]
-      } ],
       "identifier": [ {
         "use": "official",
         "system": "https://fakeurl.org/fake-cmg/fhir/patient",
@@ -157,29 +112,14 @@
       "resourceType": "Patient",
       "id": "315342",
       "meta": {
-        "versionId": "4",
-        "lastUpdated": "2022-05-23T19:23:32.887+00:00",
-        "source": "#uXtqqG6KmjOznEqS",
+        "versionId": "5",
+        "lastUpdated": "2022-05-24T15:03:16.916+00:00",
+        "source": "#bYV8HfDyPXhOO6o2",
         "tag": [ {
           "system": "https://fakeurl.org/fake-cmg/fhir/researchstudy",
           "code": "FAKECMG"
         } ]
       },
-      "extension": [ {
-        "url": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-race",
-        "extension": [ {
-          "url": "ombCategory",
-          "valueCoding": {
-            "system": "urn:oid:2.16.840.1.113883.6.238",
-            "version": "v1",
-            "code": "2054-5",
-            "display": "Black or African American"
-          }
-        }, {
-          "url": "text",
-          "valueString": "Black or African American"
-        } ]
-      } ],
       "identifier": [ {
         "use": "official",
         "system": "https://fakeurl.org/fake-cmg/fhir/patient",
@@ -196,29 +136,14 @@
       "resourceType": "Patient",
       "id": "315343",
       "meta": {
-        "versionId": "4",
-        "lastUpdated": "2022-05-23T19:23:32.938+00:00",
-        "source": "#f9PlVxizx4O4VKrS",
+        "versionId": "5",
+        "lastUpdated": "2022-05-24T15:03:16.919+00:00",
+        "source": "#Qhs6p2FApvc5fduu",
         "tag": [ {
           "system": "https://fakeurl.org/fake-cmg/fhir/researchstudy",
           "code": "FAKECMG"
         } ]
       },
-      "extension": [ {
-        "url": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-race",
-        "extension": [ {
-          "url": "ombCategory",
-          "valueCoding": {
-            "system": "urn:oid:2.16.840.1.113883.6.238",
-            "version": "v1",
-            "code": "2054-5",
-            "display": "Black or African American"
-          }
-        }, {
-          "url": "text",
-          "valueString": "Black or African American"
-        } ]
-      } ],
       "identifier": [ {
         "use": "official",
         "system": "https://fakeurl.org/fake-cmg/fhir/patient",
@@ -235,29 +160,14 @@
       "resourceType": "Patient",
       "id": "315344",
       "meta": {
-        "versionId": "4",
-        "lastUpdated": "2022-05-23T19:22:14.658+00:00",
-        "source": "#lPIKmlg52oVCx6Cq",
+        "versionId": "5",
+        "lastUpdated": "2022-05-24T15:03:16.936+00:00",
+        "source": "#8flOgF7ZNXIlqqSW",
         "tag": [ {
           "system": "https://fakeurl.org/fake-cmg/fhir/researchstudy",
           "code": "FAKECMG"
         } ]
       },
-      "extension": [ {
-        "url": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-race",
-        "extension": [ {
-          "url": "ombCategory",
-          "valueCoding": {
-            "system": "urn:oid:2.16.840.1.113883.6.238",
-            "version": "v1",
-            "code": "2028-9",
-            "display": "Asian"
-          }
-        }, {
-          "url": "text",
-          "valueString": "Asian"
-        } ]
-      } ],
       "identifier": [ {
         "use": "official",
         "system": "https://fakeurl.org/fake-cmg/fhir/patient",
@@ -274,29 +184,14 @@
       "resourceType": "Patient",
       "id": "315345",
       "meta": {
-        "versionId": "4",
-        "lastUpdated": "2022-05-23T19:22:14.707+00:00",
-        "source": "#cytZM7x1EZ3aloD2",
+        "versionId": "5",
+        "lastUpdated": "2022-05-24T15:03:17.030+00:00",
+        "source": "#VW1tN3SSdC9DSOpT",
         "tag": [ {
           "system": "https://fakeurl.org/fake-cmg/fhir/researchstudy",
           "code": "FAKECMG"
         } ]
       },
-      "extension": [ {
-        "url": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-race",
-        "extension": [ {
-          "url": "ombCategory",
-          "valueCoding": {
-            "system": "urn:oid:2.16.840.1.113883.6.238",
-            "version": "v1",
-            "code": "2028-9",
-            "display": "Asian"
-          }
-        }, {
-          "url": "text",
-          "valueString": "Asian"
-        } ]
-      } ],
       "identifier": [ {
         "use": "official",
         "system": "https://fakeurl.org/fake-cmg/fhir/patient",
@@ -313,29 +208,14 @@
       "resourceType": "Patient",
       "id": "315346",
       "meta": {
-        "versionId": "4",
-        "lastUpdated": "2022-05-23T19:22:14.755+00:00",
-        "source": "#SOBXrNHnmRgbp9Jl",
+        "versionId": "5",
+        "lastUpdated": "2022-05-24T15:03:16.928+00:00",
+        "source": "#o3ZU1wtlRj2ckI7O",
         "tag": [ {
           "system": "https://fakeurl.org/fake-cmg/fhir/researchstudy",
           "code": "FAKECMG"
         } ]
       },
-      "extension": [ {
-        "url": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-race",
-        "extension": [ {
-          "url": "ombCategory",
-          "valueCoding": {
-            "system": "urn:oid:2.16.840.1.113883.6.238",
-            "version": "v1",
-            "code": "2028-9",
-            "display": "Asian"
-          }
-        }, {
-          "url": "text",
-          "valueString": "Asian"
-        } ]
-      } ],
       "identifier": [ {
         "use": "official",
         "system": "https://fakeurl.org/fake-cmg/fhir/patient",
